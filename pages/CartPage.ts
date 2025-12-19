@@ -1,8 +1,8 @@
 import {Locator, Page, expect} from "@playwright/test";
 import {urls} from "../param/Urls.ts";
 import { Product } from "../objects/Product.ts";
-import { TableData } from "../utilities/TableData.ts";
-import { CheckoutPage } from "./CheckoutPage.ts";
+import { TableData } from "../utilities/tableData.ts";
+import { CheckoutPage } from "./checkoutPage.ts";
 
 export class CartPage{
     readonly page: Page;

@@ -1,9 +1,10 @@
 import {Locator, Page, expect} from "@playwright/test";
 import { User } from "../objects/User";
 import { Product } from "../objects/Product";
-import { TableData } from "../utilities/TableData.ts";
+
 import { PaymentPage } from "./PaymentPage";
 import { urls } from "../param/Urls";
+import { TableData } from "../utilities/tableData";
 
 export class CheckoutPage{
     readonly page: Page;
