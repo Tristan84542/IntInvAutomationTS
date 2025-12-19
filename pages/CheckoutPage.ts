@@ -1,7 +1,7 @@
 import {Locator, Page, expect} from "@playwright/test";
 import { User } from "../objects/User";
 import { Product } from "../objects/Product";
-import { TableData } from "../utilities/tableData";
+import { TableData } from "../utilities/TableData";
 import { PaymentPage } from "./PaymentPage";
 import { urls } from "../param/Urls";
 
