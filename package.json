@@ -1,0 +1,26 @@
+{
+  "name": "intinvautomationts",
+  "version": "1.0.0",
+  "description": "Can you review the website and pick six most important user journeys from the site? 1. New user sign up with required information 2. Existing user sign in with correct credentials 3. User filtering product 4. User browsing product and product details pages 5. User add items to shopping cart 6. User checkout shopping cart Out of the six user journeys proceed to pick four journeys to script against and explain why you picked these journeys? 1. New user sign up with required information     Ans: Critical business process 2. Existing user sign in with correct credentials     Ans: Also critical business process 4. User browsing product and product details pages     Ans: Critical functionality to display correct informations 6. User checkout shopping cart     Ans: Critical business process and to checkout, user need to add item(s) to cart first so it also tested user journey #5 Proceed to choose the framework and programming language you intend on using and explain why you choose them? Ans: Framework - Playwright / Language - TypeScript     As they are the framework and programming language mentioned in JD, also personally familiar with",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tristan84542/IntInvAutomationTS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Tristan84542/IntInvAutomationTS/issues"
+  },
+  "homepage": "https://github.com/Tristan84542/IntInvAutomationTS#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
+}
